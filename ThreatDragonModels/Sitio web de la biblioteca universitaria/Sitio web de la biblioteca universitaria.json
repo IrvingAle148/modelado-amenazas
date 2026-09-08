@@ -138,8 +138,8 @@
           },
           {
             "position": {
-              "x": 317,
-              "y": 90
+              "x": 500,
+              "y": 140
             },
             "size": {
               "width": 112.5,
@@ -255,8 +255,8 @@
           },
           {
             "position": {
-              "x": 162.5,
-              "y": 200
+              "x": 170,
+              "y": 250
             },
             "size": {
               "width": 90,
@@ -783,19 +783,65 @@
             ],
             "id": "6915087d-f90b-44a4-9276-80baa89065ed",
             "source": {
-              "x": 370,
-              "y": 150
+              "x": 730,
+              "y": 730
             },
             "target": {
-              "x": 473,
-              "y": 370
+              "x": 833,
+              "y": 950
             },
             "vertices": [
               {
-                "x": 350,
-                "y": 240
+                "x": 710,
+                "y": 820
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "ss",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "ss"
+            ],
+            "id": "d78201b5-ebf4-476e-9383-37d596c2ca75",
+            "source": {
+              "cell": "14205622-451b-4eb0-ab19-625c0321dc3b",
+              "port": "ecb4d661-782c-4c58-bcec-2f3e208b181f"
+            },
+            "target": {
+              "cell": "373d4c91-e5e9-431f-95e5-367f14cd3c53",
+              "port": "0385184a-cd7d-4097-be52-f81db732b741"
+            }
           }
         ],
         "description": "Los flujos de datos muestran cómo los datos fluyen lógicamente a través de la aplicación, de un extremo a otro. "
