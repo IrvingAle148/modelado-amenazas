@@ -1170,66 +1170,15 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "56ad0d9d-c438-493a-988f-45e6c555e242",
+            "id": "98b6770d-b495-47ef-837b-ce9629ff10b4",
             "source": {
-              "x": 360,
-              "y": 230
+              "x": 376,
+              "y": 190
             },
             "target": {
-              "x": 500,
+              "x": 476,
               "y": 290
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 290
-              }
-            ]
+            }
           },
           {
             "shape": "trust-boundary-curve",
