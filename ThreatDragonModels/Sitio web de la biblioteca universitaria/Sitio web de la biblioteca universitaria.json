@@ -479,8 +479,8 @@
           },
           {
             "position": {
-              "x": -30,
-              "y": 510
+              "x": 0,
+              "y": 490
             },
             "size": {
               "width": 120,
@@ -623,8 +623,8 @@
           },
           {
             "position": {
-              "x": 280,
-              "y": 510
+              "x": 230,
+              "y": 480
             },
             "size": {
               "width": 120,
@@ -1231,39 +1231,105 @@
             ]
           },
           {
-            "shape": "trust-boundary-curve",
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": "4 3"
+              }
+            },
             "width": 200,
             "height": 100,
-            "zIndex": 11,
+            "zIndex": 10,
             "connector": "smooth",
             "data": {
-              "type": "tm.Boundary",
-              "name": "Lee Web \napp config",
-              "description": "Archivo físico de configuración leído desde el disco.",
-              "isTrustBoundary": true,
+              "type": "tm.Flow",
+              "name": "Páginas",
+              "description": "Páginas web leídas desde el disco.",
+              "outOfScope": true,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Páginas"
+            ],
+            "id": "c169eb88-9958-4180-b0e3-8ee18bb086e3",
+            "source": {
+              "cell": "5aadf761-17ec-4c2d-bf3e-030be67b6ae0",
+              "port": "6cc44461-e67c-4bae-b642-004f5888c355"
+            },
+            "target": {
+              "cell": "373d4c91-e5e9-431f-95e5-367f14cd3c53",
+              "port": "656f43cc-a297-4b7c-b674-5555cc5c0706"
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": "4 3"
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Lee Web \napp config",
+              "description": "Archivo fisico de configuración leído desde el disco.",
+              "outOfScope": true,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
             },
             "labels": [
               "Lee Web \napp config"
             ],
-            "id": "103a00b0-70af-4c84-a97d-a39f60cdf487",
+            "id": "0e6af56b-01a5-4e2d-a22b-5e6930b40479",
             "source": {
-              "x": 210,
-              "y": 330
-            },
-            "target": {
               "cell": "96c520fd-cdfd-4914-8d1a-5b6ca8b754e4",
               "port": "6cc44461-e67c-4bae-b642-004f5888c355"
             },
+            "target": {
+              "cell": "373d4c91-e5e9-431f-95e5-367f14cd3c53",
+              "port": "656f43cc-a297-4b7c-b674-5555cc5c0706"
+            },
             "vertices": [
               {
-                "x": 230,
-                "y": 390
-              },
-              {
-                "x": 320,
+                "x": 290,
                 "y": 430
               }
             ]
@@ -1332,16 +1398,12 @@
               "cell": "be045649-9860-4fef-b4c9-3a2842397407",
               "port": "22fa4b62-094d-4dab-b128-729dea59fe3e"
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "vertices": [
+              {
+                "x": 380,
+                "y": 370
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1411,44 +1473,6 @@
               {
                 "x": 580,
                 "y": 330
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 15,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Páginas",
-              "description": "Páginas web leídas desde el disco.",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Páginas"
-            ],
-            "id": "21d95600-fcff-4092-b4eb-1f62d1afd14e",
-            "source": {
-              "x": 210,
-              "y": 330
-            },
-            "target": {
-              "cell": "5aadf761-17ec-4c2d-bf3e-030be67b6ae0",
-              "port": "6cc44461-e67c-4bae-b642-004f5888c355"
-            },
-            "vertices": [
-              {
-                "x": 130,
-                "y": 400
-              },
-              {
-                "x": 110,
-                "y": 450
               }
             ]
           },
