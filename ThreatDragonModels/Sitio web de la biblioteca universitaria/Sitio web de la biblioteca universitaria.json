@@ -23,12 +23,13 @@
       },
       {
         "id": 1,
-        "title": "New CIA diagram",
+        "title": "Flujo de datos de inicio de sesión del usuario",
         "diagramType": "CIA",
         "placeholder": "New CIA diagram description",
         "thumbnail": "./public/content/images/thumbnail.cia.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [],
+        "description": "Los flujos de datos muestran cómo los datos fluyen lógicamente a través de la aplicación, de un extremo a otro."
       }
     ],
     "diagramTop": 2,
