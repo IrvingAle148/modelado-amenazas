@@ -1534,7 +1534,7 @@
             "data": {
               "type": "tm.Boundary",
               "name": "Usuario/Web\nserver limite",
-              "description": "",
+              "description": "Límite de confianza que separa la red externa no confiable (donde interactúa el usuario a través de Internet) del entorno del servidor web de la universidad.",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
@@ -1576,7 +1576,7 @@
             "data": {
               "type": "tm.Boundary",
               "name": "Limite\nWeb server/Db\n",
-              "description": "",
+              "description": "Límite de confianza que separa la capa de aplicación (servidor web Apache/Controlador web) de la capa de almacenamiento persistente y lógica de datos (servidor de base de datos MySQL en red privada).",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
